@@ -1,0 +1,27 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "Part 2 of the HTTP API assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "pretest": "eslint src --fix",
+    "test": "echo \"Tests Complete\"",
+    "nodemon": "nodemon --watch ./src ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trestero/http-api-assignment-ii.git"
+  },
+  "author": "Tom Slavin",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Trestero/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/Trestero/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^2.0.2"
+  }
+}
